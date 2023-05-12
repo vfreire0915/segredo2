@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgb(255, 0, 0),orange);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.titulo {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.img {
+    width: 150px;
+    margin: -130px auto 20px auto;
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.botoes {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.botao {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 1em;
+    height: 52px;
+    width: 65px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: rgb(177, 189, 199);
+    transition: 0.4s;
+}
+
+.desenvolvedor {
+    text-align: center;
+}
+
